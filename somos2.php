@@ -23,34 +23,45 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 							</div>
 							
 							<div style="margin-left:165px;">
+							
+								<H3>
+									<?=$TXT_SOMOS_2_TITLE ?>
+								</H3>
+
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_2_TXT ?></p>
 								
-								<p><a name="2" target="_blank" href="http://es.linkedin.com/pub/elisa-herrera-fern%C3%A1ndez/1b/902/17">Perfil Linkedin<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" /></a></h3></p>
+								<!--p>
+								<a name="2" target="_blank" href="http://es.linkedin.com/pub/elisa-herrera-fern%C3%A1ndez/1b/902/17">Perfil Linkedin<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" /></a></h3>
+								</p-->
 								
-								<p><b><?=$TXT_SOMOS_2_ESPECIA ?></b></p>
+								<p><?=$TXT_SOMOS_2_TXT2 ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT3 ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT4 ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT5 ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT6 ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT7 ?></p>
+								
+								<p><b><?=$TXT_SOMOS_2_TXT8 ?></b></p>
+								<div style="padding-left:10%;padding-bottom:20px;">
+									<p><?=$TXT_SOMOS_2_TXT8a ?></p>
+									<p><?=$TXT_SOMOS_2_TXT8b ?></p>
+									<p><?=$TXT_SOMOS_2_TXT8c ?></p>
+									<p><?=$TXT_SOMOS_2_TXT8d ?></p>
+								</div>
+								
+								<p><b><?=$TXT_SOMOS_2_TXT9 ?></b></p>
 								<div style="padding-left:10%;">
-									<p><?=$TXT_SOMOS_2_ESP_1 ?></p>
-									<p><?=$TXT_SOMOS_2_ESP_2 ?></p>
-									<p><?=$TXT_SOMOS_2_ESP_3 ?></p>
+									<p><?=$TXT_SOMOS_2_TXT9a ?></p>
+									<p><?=$TXT_SOMOS_2_TXT9b ?></p>
+									<p><?=$TXT_SOMOS_2_TXT9c ?></p>
+									<p><?=$TXT_SOMOS_2_TXT9d ?></p>
 								</div>
-								<p><b><p><?=$TXT_SOMOS_2_XP ?></p></b></p>
-								<div style="padding-left:10%;">
-									<p><?=$TXT_SOMOS_2_XP_1 ?></p>
-									<p><?=$TXT_SOMOS_2_XP_2 ?></p>
-									<p><?=$TXT_SOMOS_2_XP_3 ?></p>
-									<p><?=$TXT_SOMOS_2_XP_4 ?></p>
-								</div>
-								<p><b><p><?=$TXT_SOMOS_2_FORMA ?></p></b></p>
-								<div style="padding-left:10%;">
-									<p><?=$TXT_SOMOS_2_FORMA_1 ?></p>
-									<p><?=$TXT_SOMOS_2_FORMA_2 ?></p>
-									<p><?=$TXT_SOMOS_2_FORMA_3 ?></p>
-								</div>
-								<p><b><p><?=$TXT_SOMOS_2_LANG ?></p></b></p>
-								<div style="padding-left:10%;">										
-									<p><?=$TXT_SOMOS_2_LANG_1 ?></p>
-									<p><?=$TXT_SOMOS_2_LANG_2 ?></p>
-								</div>
+
 							</div>
 						
 						</section>

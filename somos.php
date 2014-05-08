@@ -23,11 +23,15 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 							</div>
 							
 							<div style="margin-left:165px;">
+							
+								<H3>
+									<?=$TXT_SOMOS_1_TITLE ?>
+								</H3>
+
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_1_TXT ?></p>
 								<p>
-									<a name="2" target="_blank" href="http://www.linkedin.com/profile/view?id=33742351">
-										Perfil Linkedin
-										<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" />
+									<a name="2" href="somos1.php">
+										<?=$TXT_SOMOS_PERFIL_C ?>
 									</a>
 								</p>
 							</div>
@@ -38,11 +42,17 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 							</div>
 							
 							<div style="padding-top:60px;margin-left:165px;">
+							
+								<H3>
+									<?=$TXT_SOMOS_2_TITLE ?>
+								</H3>
+							
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_2_TXT ?></p>
+								
+								<p><?=$TXT_SOMOS_2_TXT2 ?></p>
 								<p>
-									<a name="2" target="_blank" href="http://es.linkedin.com/pub/elisa-herrera-fern%C3%A1ndez/1b/902/17">
-										Perfil Linkedin
-										<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" />
+									<a name="2" href="somos2.php">
+										<?=$TXT_SOMOS_PERFIL_C ?>
 									</a>
 								</p>
 							</div>
@@ -50,15 +60,38 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 							
 							<div style="padding-top:60px;position:absolute;width:160px;text-align:center;">
 								<img src="images/3.png" />
-								<h1 style="padding-top:10px;">Angel Roda</h1>
+								<h1 style="padding-top:10px;">Ángel Roda</h1>
 							</div>
 							
 							<div style="padding-top:60px;margin-left:165px;">
+							
+								<H3>
+									<?=$TXT_SOMOS_3_TITLE ?>
+								</H3>
+
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_3_TXT ?></p>
 								<p>
-									<a name="2" target="_blank" href="">
-										Perfil Linkedin
-										<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" />
+									<a name="2" href="somos3.php">
+										<?=$TXT_SOMOS_PERFIL_C ?>
+									</a>
+								</p>
+							</div>
+							
+							<div style="padding-top:60px;position:absolute;width:160px;text-align:center;">
+								<img src="images/4.png" />
+								<h1 style="padding-top:10px;">Mª Sol Muñoz Bañuls</h1>
+							</div>
+							
+							<div style="padding-top:60px;margin-left:165px;">
+							
+								<H3>
+									<?=$TXT_SOMOS_4_TITLE ?>
+								</H3>
+
+								<p style="line-height: 1.3em;padding-bottom: 20px;"><?=$TXT_SOMOS_4_TXT ?></p>
+								<p>
+									<a name="2" href="somos4.php">
+										<?=$TXT_SOMOS_PERFIL_C ?>
 									</a>
 								</p>
 							</div>

@@ -209,46 +209,114 @@ $TXT_FAMILIA_5 = 'En la actualidad, y con base en el desarrollo de la neurocienc
 
 $TXT_SOMOS_TITLEUP	= 'LANX, tus Profesionales';
 $TXT_SOMOS_MENU		= 'Abogados';
+$TXT_SOMOS_PERFIL_C	= 'Perfil Completo';
 $TXT_SOMOS_1_TITLE	= 'Socio Director';
-$TXT_SOMOS_1_TXT	= 'Abogado en ejercicio desde 1999 con experiencia consolidada en los tribunales, miembro de la candidatura a Decano del Colegio de Abogados de Madrid en las últimas elecciones, colaborador jurídico de diversas empresas consolidadas distintos ámbitos del tráfico mercantil, así como asesor de distintas asociaciones. Experiencia en departamentos de Recursos Humanos, financieros, jurídico y fiscal de grandes empresas de telecomunicaciones, coparticipe en proyectos formativos para abogados.';
+$TXT_SOMOS_1_TXT	= 'Abogado en ejercicio desde 1999 con experiencia consolidada en los tribunales, así como en asesoramiento de empresas en materia de recursos humanos, fiscalidad y negociación de contratos. Colaborador jurídico y asesor en distintos ámbitos del derecho mercantil y laboral de empresas consolidadas.';
 $TXT_SOMOS_1_MAS	= 'Más...';
-$TXT_SOMOS_1_ESPECIA= 'Especialidad';
-$TXT_SOMOS_1_ESP_1	= 'Derecho Inmobiliario';
-$TXT_SOMOS_1_ESP_2	= 'Derecho Penal';
-$TXT_SOMOS_1_ESP_3	= 'Derecho Laboral';
-$TXT_SOMOS_1_XP		= 'Experiencia';
-$TXT_SOMOS_1_XP_1	= '.';
-$TXT_SOMOS_1_XP_2	= '2';
-$TXT_SOMOS_1_XP_3	= '3';
-$TXT_SOMOS_1_XP_4	= '4';
-$TXT_SOMOS_1_FORMA	= 'Formación';
-$TXT_SOMOS_1_FORMA_1= 'Licenciado en Derecho. Universidad';
-$TXT_SOMOS_1_FORMA_2= 'Máster...';
-$TXT_SOMOS_1_FORMA_3= 'Doctorando...';
-$TXT_SOMOS_1_LANG	= 'Idiomas';
-$TXT_SOMOS_1_LANG_1	= 'Español';
-$TXT_SOMOS_1_LANG_2	= 'Inglés';
-$TXT_SOMOS_2_TITLE	= 'Colaborador';
-$TXT_SOMOS_2_TXT	= 'Desempeño de diversos puestos de responsabilidad en el ámbito medioambiental y sanitario de diferentes empresas y fundaciones, compaginada con el ejercicio profesional de la abogacía apoyando y asesorando en áreas de gestión, dirección y desarrollo de negocio a PYMES, Fundaciones, y entidades del sector sanitario, haciendo especial hincapié en RSC, Protección de datos, proyectos y ejecución de los mismos.';
-$TXT_SOMOS_2_TXT2	= 'Directora General de la Fundación INTHEOS,; Directora y Secretaria de la Fundación CB para el desarrollo de la educación; Directora-Gerente Fundación Alzheimer España';
-$TXT_SOMOS_2_MAS	= 'Más';
-$TXT_SOMOS_2_ESPECIA= 'Especialidad';
-$TXT_SOMOS_2_ESP_1	= 'Derecho Inmobiliario';
-$TXT_SOMOS_2_ESP_2	= 'Derecho Penal';
-$TXT_SOMOS_2_ESP_3	= 'Derecho Laboral';
-$TXT_SOMOS_2_XP		= 'Experiencia';
-$TXT_SOMOS_2_XP_1	= '.';
-$TXT_SOMOS_2_XP_2	= '2';
-$TXT_SOMOS_2_XP_3	= '3';
-$TXT_SOMOS_2_XP_4	= '4';
-$TXT_SOMOS_2_FORMA	= 'Formación';
-$TXT_SOMOS_2_FORMA_1= 'Licenciado en Derecho. Universidad';
-$TXT_SOMOS_2_FORMA_2= 'Máster...';
-$TXT_SOMOS_2_FORMA_3= 'Doctorando...';
-$TXT_SOMOS_2_LANG	= 'Idiomas';
-$TXT_SOMOS_2_LANG_1	= 'Español';
-$TXT_SOMOS_2_LANG_2	= 'Inglés';
-$TXT_SOMOS_3_TXT	= 'Abogado en ejercicio desde 1999 con experiencia consolidada en los tribunales, miembro de la candidatura a Decano del Colegio de Abogados de Madrid en las últimas elecciones, colaborador jurídico de diversas empresas consolidadas distintos ámbitos del tráfico mercantil, así como asesor de distintas asociaciones. Experiencia en departamentos de Recursos Humanos, financieros, jurídico y fiscal de grandes empresas de telecomunicaciones, coparticipe en proyectos formativos para abogados.';
+$TXT_SOMOS_1_P2		= 'Colaborador en programas de formación en escuelas de negocios y centros educativos, profesor del Master de Práctica Jurídica y Procesal Civil del ISDE.';
+$TXT_SOMOS_1_P3		= 'Asesor técnico y estratégico de Asociaciones y Fundaciones.';
+$TXT_SOMOS_1_P4		= 'Coautor de libros "Porqué se ganan y se pierden lo pleitos" "El derecho al alcance de todos" "Preguntas y documentos para elaborar los contratos más frecuentes" editorial Colex.';
+$TXT_SOMOS_1_XP		= 'EXPERIENCIA';
+$TXT_SOMOS_1_XP1	= 'LANX IURIS ABOGADOS 2010 – Actualidad Socio director de la firma.';
+$TXT_SOMOS_1_XP2	= 'Fundación para los Derechos de la Infancia y Cooperación Internacional. 2010 – 2012 Secretario General de la fundación.';
+$TXT_SOMOS_1_XP3	= 'G.S.I. ASESORES 2008- 2013 Abogado colaborador, prestando servicios de asesoramiento jurídico a empresas y particulares.';
+$TXT_SOMOS_1_XP4	= 'FRANCE TELECOM ESPAÑA 2004-2008 Abogado fiscalista en resolución asuntos contenciosos y pre contenciosos con la administración tributaria y administraciones locales.';
+$TXT_SOMOS_1_XP5	= 'AMENA 2002 – 2004 como Abogado en el área financiera liderando proyectos de expansión de red, tesorería y otros.';
+$TXT_SOMOS_1_XP6	= 'QUIERO TELEVISION 1999- 2002, como Gerente de recursos humanos, liderando el área de Administración de personal y relaciones laborales.';
+$TXT_SOMOS_1_XP7	= 'UNION FENOSA ACEX 1998 – 1999, como Abogado en el departamento legal elaborando contratos a nivel internacional.';
+
+
+$TXT_SOMOS_2_TITLE	= 'Socio Director';
+$TXT_SOMOS_2_TXT	= 'Dilata experiencia en el desempeño de diversos puestos de responsabilidad en el sector medioambiental y sanitario  tanto en la administración pública como  en empresas,  y fundaciones  privadas.';
+$TXT_SOMOS_2_TXT2	= 'Actualmente compagina su labor de asesoramiento y dirección  de la Fundación CB para el desarrollo de la educación con el ejercicio profesional de la abogacía.';
+$TXT_SOMOS_2_TXT3	= 'Asesora en áreas de gestión, dirección y desarrollo de negocio a PYMES,  así como  de organizaciones no gubernamentales, entidades del sector público y fundaciones en un amplio abanico de servicios que éstas precisan a nivel autonómico, estatal e internacional.';
+$TXT_SOMOS_2_TXT4	= 'Experta, en  áreas Responsabilidad Social Corporativa, Protección de datos y uso de la tecnología (en menores),  así como en proyectos de formación y ejecución de los mismos.';
+$TXT_SOMOS_2_TXT5	= 'Colaborador en Programas de  Formación juridica en Escuelas de Negocios y Centros Educativos,';
+$TXT_SOMOS_2_TXT6	= 'Autora de diversos artículos en revistas de sanidad y de derecho destacando  los publicados en la Editorial La Ley (vg, entre otros, num 5381 "La Directiva Prevencion Control Contaminación, en relación a la Ley catalana 3/1987, Régimen sancionador".';
+$TXT_SOMOS_2_TXT7	= 'Participante en Congresos de caracter ambiental,  así en el VI Congreso Nacional de Medio Ambiente  con la comunicación "La transposición de la Directiva IPPC·';
+$TXT_SOMOS_2_TXT8	= 'Experiencia profesional';
+$TXT_SOMOS_2_TXT8a	= 'Ministerios de Medio ambiente';
+$TXT_SOMOS_2_TXT8b	= 'Directora de la Fundacion sanitaria del GRUPO CISNE (hospitales y aseguradora sanitaria así como asesora juridica del grupo en medioambiente y derecho administartivo.';
+$TXT_SOMOS_2_TXT8c	= 'Directora en la Fundación Alzheimer  España';
+$TXT_SOMOS_2_TXT8d	= 'Directora de la Fundación oncología INTHEOS';
+$TXT_SOMOS_2_TXT9	= 'ESPECIALIDADES';
+$TXT_SOMOS_2_TXT9a	= 'Administrativo';
+$TXT_SOMOS_2_TXT9b	= 'Medio ambiente';
+$TXT_SOMOS_2_TXT9c	= 'Fundaciones';
+$TXT_SOMOS_2_TXT9d	= 'Protección de datos';
+
+$TXT_SOMOS_3_TITLE	= 'Consultor';
+$TXT_SOMOS_3_TXT	= 'Como consultor Retail,  posee una dilatada experiencia dentro de diferentes sectores con cliente final y servicios, compaginando estas consultorías con un coaching organizado y específico para cada empresa,  estudio de cuentas P&L, con un objetivo claro de optimizar los resultados. Experiencia en realización de estructuras familiares, implantación de nuevos modelos de venta, búsqueda de nuevos targets, y reordenación de la cartera de clientes y franquiciados. Apoyo en las tomas de decisión basadas en estudios de situación y competencia.';
+$TXT_SOMOS_3_TXT2	= 'Business Consultor, experto en Sector Retail, Empresas Familiares y Sector Franquicias.';
+$TXT_SOMOS_3_TXT3	= 'Englobando el sector de negocios que va desde el pequeño comercio, pasando por tiendas de marca, grandes superficies, centros comerciales, y en algunos casos restauración. Relacionado con las cadenas de tiendas, franquicias, centrales de compras y  el comercio online o e-retail.';
+$TXT_SOMOS_3_TXT4	= 'Amplia experiencia en el  asesoramiento, diseño de  estrategias, análisis y recomendaciones  sobre cómo gestionar y mejorar todo tipo de Retail. Creación de una nueva visión de promoción, organización, mejora, innovación, además de planear y seleccionar la ubicación o apertura de puntos de venta. ';
+$TXT_SOMOS_3_TXT5	= 'Solo un retailer que conozca la empresa familiar, podrá entender los muchos problemas que supone la gestión del retail, y la empresa familiar.';
+$TXT_SOMOS_3_TXT5	= 'Solo un retailer que conozca la empresa familiar, podrá entender los muchos problemas que supone la gestión del retail, y la empresa familiar.';
+
+$TXT_SOMOS_4_TITLE	= 'Consultora de Formación';
+$TXT_SOMOS_4_TXT	= 'Profesional independiente con más de 15 años de experiencia en actividades relacionadas con el Desarrollo Profesional a lo largo de todo el ciclo del proyecto (diseño, gestión e implantación, seguimiento etc), tanto en compañías privadas como en empresas públicas y organismos de la Administración, en proyectos nacionales e internacionales.';
+$TXT_SOMOS_4_TXT1	= 'Proactiva, orientada a resultados; acostumbrada a la gestión integral de proyectos de Formación y Desarrollo, tanto desde la perspectiva técnica (alineación de la formación con itinerarios competenciales, unificación de estilos en manuales y metodologías didácticas) como de gestión (definición y seguimiento de indicadores, control y seguimiento de proveedores, etc). Habituada a la interlocución y mantenimiento de la relación con clientes de todo nivel.';
+$TXT_SOMOS_4_TXT2	= 'Con sólida experiencia en la selección, capacitación y coordinación de formadores (habituales u ocasionales), tanto en proyectos de metodología presencial como online y blended.';
+$TXT_SOMOS_4_TXTP	= 'Proyectos';
+$TXT_SOMOS_4_TXTP1	= 'Planes de Acogida y Acompañamiento (mentoring)';
+$TXT_SOMOS_4_TXTP2	= 'Evaluación del Desempeño: Formación de Evaluadores; Certificación de equipos; Assessment Centers; Evaluación 360º';
+$TXT_SOMOS_4_TXTP3	= 'Gestión del Cambio: Modelización de procesos de RRHH; Comunicación, Formación y Sesiones de Alto Impacto.';
+$TXT_SOMOS_4_TXTP4	= 'Desarrollo Directivo: Evaluación; Planes de acción y seguimiento; Devolución de información.';
+$TXT_SOMOS_4_TXTP5	= 'Coaching: executive y de equipos de trabajo.';
+$TXT_SOMOS_4_TXTP6	= 'Gestión de Proyectos de Formación y Desarrollo (PMO): Soporte, control y seguimiento del proyecto completo, desde la detección de necesidades hasta la entrega de informes finales.';
+
+$TXT_SOMOS_4_TXTC	= 'Cursos (presenciales y online)';
+$TXT_SOMOS_4_TXTC1	= 'Formación de Formadores: Habilidades de Formación; Evaluación de la Formación; Formadores 2.0; Aprendizaje adulto y nuevas metodologías didácticas.';
+$TXT_SOMOS_4_TXTC2	= 'Gestión de Personas: Liderazgo; Líder-Coach; Trabajo en Equipo; Comunicación e Influencia; Negociación colaborativa.';
+$TXT_SOMOS_4_TXTC3	= 'Eficiencia personal: Gestión del Tiempo; Reuniones eficaces; Comunicación Efectiva; Gestión de Personas en Proyectos.';
+$TXT_SOMOS_4_TXTC4	= 'Gestión de RRHH: Selección, Formación, Desarrollo, Evaluación del desempeño, Competencias etc.';
+$TXT_SOMOS_4_TXTC5	= 'Desarrollo Personal: Proactividad y adaptación al Cambio; Desarrollo de Competencias Emocionales.';
+
+$TXT_SOMOS_4_TXTXP	= 'Experiencia Profesional';
+$TXT_SOMOS_4_TXTXP1	= 'Consultor de Recursos Humanos (autónoma), septiembre 2009-act, algunos proyectos:';
+$TXT_SOMOS_4_TXTXP11= 'Seguimiento del programa de Desarrollo de Altos Potenciales de entidad bancaria de implantación nacional.';
+$TXT_SOMOS_4_TXTXP12= 'Tutora del programa de desarrollo de managers de una importante compañía de seguridad, aplicando la metodología 70-20-10.';
+$TXT_SOMOS_4_TXTXP13= 'Coaching individual y de equipos: colaboradora habitual del CIVSEM (Fundaciones CEU y Tomás Pascual).';
+$TXT_SOMOS_4_TXTXP14= 'Miembro del Claustro de Formadores del área de Desarrollo Competencial del CIFSE (Ayto. de Madrid).';
+$TXT_SOMOS_4_TXTXP15= 'Colaboradora habitual de IFE/Cámara de Comercio de Madrid en proyectos de Liderazgo y Comunicación.';
+$TXT_SOMOS_4_TXTXP16= 'Diseño y adaptación de acciones formativas online. Dinamización y tutorización de cursos (Aviva, Renfe, etc).';
+$TXT_SOMOS_4_TXTXP17= 'Certificación de Redes Comerciales (Vehículos de alta gama).';
+$TXT_SOMOS_4_TXTXP18= 'Desarrollo Competencial del Canal de Isabel II: coordinación del área on-line del proyecto; acompañamiento pedagógico del un grupo de 10 directivos (evaluación inicial y final, diseño y seguimiento del Plan de Acción).';
+
+$TXT_SOMOS_4_TXTXP2	= 'Conecta Tecnología y Gestión, agosto 2008-sept 2009, Gerente de Recursos Humanos';
+$TXT_SOMOS_4_TXTXP2a= 'Reportando al Socio Director de RRHH, y coordinando un equipo de 2 personas, en el paso de ser una compañía de 40 profesionales en una oficina a 150 personas en 5 sedes. Algunos proyectos:';
+$TXT_SOMOS_4_TXTXP21= 'Definición y normalización de los procesos de RRHH: selección, formación, evaluación del desempeño.';
+$TXT_SOMOS_4_TXTXP22= 'Lanzamiento de proyectos de comunicación interna (acogida, planes de acompañamiento, salida).';
+
+$TXT_SOMOS_4_TXTXP3	= 'Coordinadora de la Universidad Corporativa/ Conectora del área de People Corporativo Everis www.everis.com Sept. 2004- Jul. 2008.';
+$TXT_SOMOS_4_TXTXP3x= 'Reportando al Director de Formación y al Comité de RRHH (corporativo), y con un equipo de 5 formadores a mi cargo. Funciones:';
+$TXT_SOMOS_4_TXTXP31= 'Gestión de la Formación interna: planificación, control y seguimiento del Plan Corporativo de Formación (Habilidades y modelo propio de gestión); coordinación de formadores internos y proveedores externos; normalización y supervisión de la formación sectorial';
+$TXT_SOMOS_4_TXTXP32= 'Despliegue internacional de la formación corporativa (Portugal, Brasil, México, Chile y Argentina): capacitación de formadores internos (manuales, impartición y acompañamiento); apoyo en la elaboración de calendarios, etc.';
+$TXT_SOMOS_4_TXTXP33= 'Desarrollo corporativo: “Coaching peer to peer”: redefinición del estilo de liderazgo corporativo y de la herramienta de evaluación 360º. Responsable de toda la formación impactada por el cambio en el paso de DMR a Everis (planes de acogida, planes de formación para las diferentes carreras profesionales, capacitación para la evaluación del desempeño, imagen corporativa, etc)';
+$TXT_SOMOS_4_TXTXP34= 'Colaboración en proyectos (clientes) externos: puntualmente, con el área de Organización y Personas: gestión del Cambio (distrito C de Telefónica); Comunicación Interna (comunicación corporativa); etc';
+
+$TXT_SOMOS_4_TXTXP4	= 'Jefe de Proyecto (Learning&Development) Price Waterhouse Coopers www.pwc.es ; KPMG Consulting www.kpmg.com, Feb 1999-Ag 2004';
+$TXT_SOMOS_4_TXTXP41= 'Formación externa: interlocución con clientes: elaboración y presentación de ofertas técnicas y económicas; planificación, control y seguimiento de los proyectos; impartición de formación (habilidades, comercial y de producto); elaboración de manuales y materiales de formación.';
+$TXT_SOMOS_4_TXTXP42= 'Proveedor interno de la formación en habilidades para todos los niveles organizativos.';
+$TXT_SOMOS_4_TXTXP43= 'Colaboración con el departamento de RRHH interno en proyectos no formativos: assesment, organización, etc.';
+$TXT_SOMOS_4_TXTXP44= 'Participación en proyectos de ingeniería de procesos y gestión del cambio.';
+
+$TXT_SOMOS_4_TXTXP5	= 'Ingeniero de Formación Cofor www.cofor.es Sept 1996-Feb 1999';
+$TXT_SOMOS_4_TXTXP51= 'Desarrollo de Planes Estratégicos de Formación para diversas asociaciones, dentro del marco del FORCEM.';
+$TXT_SOMOS_4_TXTXP52= 'Acciones de formación en la empresa privada (principalmente del sector industrial).';
+
+$TXT_SOMOS_4_TXTXP6	= 'Consultor de Gestión del Cambio, Bossard Consultants, Oct 1995-jun 1996, en el proceso de liberalización del mercado postal español';
+
+$TXT_SOMOS_4_TXTF	= 'Formación';
+$TXT_SOMOS_4_TXTF1	= 'Licenciada en Psicología (industrial) por la Universidad Pontificia de Salamanca.';
+$TXT_SOMOS_4_TXTF2	= 'Master en Dirección y Gestión de Recursos Humanos por ESDEN.';
+$TXT_SOMOS_4_TXTF3	= 'Experto en Coaching e Inteligencia Emocional, U. Complutense, 100 h.';
+$TXT_SOMOS_4_TXTF4	= 'Programa de Certificación de Coaching Profesional;Lider-Haz-Go!.';
+$TXT_SOMOS_4_TXTF5	= 'Múltiples formaciones en el ámbito de los RRHH: RSE, PNL, Igualdad etc.';
+
+$TXT_SOMOS_4_TXTCER	= 'Certificaciones';
+$TXT_SOMOS_4_TXTCER1= 'Coach Ejecutivo Asociado Certificado por AECOP.';
+$TXT_SOMOS_4_TXTCER2= 'Facilitadora de la Metodología Belbin de Roles de Equipo.';
 
 $TXT_LOCAL_TITLE	= 'LANX, Cerca de Ti';
 $TXT_LOCAL_NEW_WIN	= 'Ventana Nueva';
