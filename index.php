@@ -48,6 +48,11 @@ $_SESSION['ceimextitle']= $TXT_INDEX_TITLE;
 								<h3><?=$TXT_INDEX_TITLE ?></h3>
 								<p><?=$TXT_INDEX_P1 ?></p>
 								<p><?=$TXT_INDEX_P2 ?></p>
+								
+								<p style="padding-top: 6;padding-bottom: 6;text-align: center;font-weight: bold;border-top: 2px solid rgb(173, 173, 173);border-bottom: 2px solid rgb(173, 173, 173);">
+									<?=$TXT_INDEX_P3 ?>
+								</p>
+
 							</div>
 
 							<div id="CC1" style="display: none;">

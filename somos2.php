@@ -30,9 +30,9 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_2_TXT ?></p>
 								
-								<!--p>
-								<a name="2" target="_blank" href="http://es.linkedin.com/pub/elisa-herrera-fern%C3%A1ndez/1b/902/17">Perfil Linkedin<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" /></a></h3>
-								</p-->
+								<p>
+								<a name="2" target="_blank" href="http://es.linkedin.com/pub/elisa-herrera-fern%C3%A1ndez/1b/902/17">Linkedin<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" /></a></h3>
+								</p>
 								
 								<p><?=$TXT_SOMOS_2_TXT2 ?></p>
 								

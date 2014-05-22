@@ -18,6 +18,8 @@ $TXT_INDEX_H4_TITLE	= 'Compliance';
 $TXT_INDEX_H5_TITLE	= 'Fundaciones';
 $TXT_INDEX_P1 		= 'Lanx es una firma española independiente, basada en un <b>enfoque multidisciplinar</b> que integra servicios jurídicos económicos, de consultoría y formación.';
 $TXT_INDEX_P2 		= 'Nuestro origen como bufete de abogados está avalada por la  dilatada experiencia de un importante elenco de profesionales de proyección nacional.';
+$TXT_INDEX_P3 		= 'Destacamos de forma especial nuestros servicios relativos a Protección de datos,  divorcios, despidos, negociación clausula suelo, sentencias favorables en preferentes';
+
 $TXT_INDEX_P30		= 'images/qs.png';
 $TXT_INDEX_P31		= '<b>Especialización y Experiencia</b> definen nuestra práctica profesional.';
 $TXT_INDEX_P32		= 'Todos los asuntos son estudiados de manera individual por un socio director, con los responsables de área implicados.';
@@ -207,7 +209,7 @@ $TXT_FAMILIA_4 = 'Gran parte del fracaso se explica por conflictos emocionales q
 $TXT_FAMILIA_5 = 'En la actualidad, y con base en el desarrollo de la neurociencia afectiva, el neuromanagement investiga cómo las emociones afectan la toma de decisiones y, a su vez, cómo pueden evitarse sus efectos devastadores en las empresas familiares.';
 
 
-$TXT_SOMOS_TITLEUP	= 'LANX, tus Profesionales';
+$TXT_SOMOS_TITLEUP	= 'LANX, Expertos';
 $TXT_SOMOS_MENU		= 'Abogados';
 $TXT_SOMOS_PERFIL_C	= 'Perfil Completo';
 $TXT_SOMOS_1_TITLE	= 'Socio Director';

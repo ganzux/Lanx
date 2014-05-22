@@ -30,9 +30,9 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 								
 								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_1_TXT ?></p>
 								
-								<!--p>
+								<p>
 								<a name="2" target="_blank" href="http://www.linkedin.com/profile/view?id=33742351">Linkedin<img src="images/lnkdin.png" style="vertical-align: middle;padding-left: 20;" /></a></h3>
-								</p-->
+								</p>
 								
 								<p><?=$TXT_SOMOS_1_P2 ?></p>
 								<p><?=$TXT_SOMOS_1_P3 ?></p>

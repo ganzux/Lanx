@@ -87,13 +87,11 @@
 	}
 
 	a {
-		color: rgb(0,77,200);
-		text-decoration: underline;
+		color: rgb(111,111,111);		text-decoration: none;
 	}
 
-	a:hover {
-		text-decoration: none;
-	}
+	a:hover {
+		text-decoration: underline;	}
 
 	* > p:last-child {
 		margin-bottom: 0 !important;
