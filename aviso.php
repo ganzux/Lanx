@@ -1,4 +1,7 @@
 <?php session_start();
+
+ob_start();
+
 include 'lang.php';
 unset( $_SESSION['ceimexpage'] );
 $_SESSION['ceimextitle']=$TXT_CONTACT_TITLE2;
@@ -95,3 +98,9 @@ $_SESSION['ceimextitle']=$TXT_CONTACT_TITLE2;
 
 	</body>
 </html>
+
+<?php 
+$test = ob_get_contents();
+ob_end_clean();
+echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
+?>
