@@ -22,32 +22,32 @@
 			
 		<h2 style="padding-top: 6;padding-bottom: 6;font-weight: bold;border-top: 2px solid rgb(173, 173, 173);">
 		
-		<h2><?=$TXT_CONTACT_TITLE;?></h2>
+		<h2><?=numberize( $TXT_CONTACT_TITLE )?></h2>
 			<ul class="link-list">
 				<li>
-					<h3>Correo</h3>
+					<h3><?=numberize("Correo") ?></h3>
 					<p style="padding-top:25px;">
-						<a href="contacto.php">informacion@lanxiuris.es</a>
+						<a href="contacto.php"><?=numberize("informacion@lanx.es") ?></a>
 					</p>
 				</li>
 				<li>
-					<h3>Teléfono</h3>
+					<h3><?=numberize("Teléfono") ?></h3>
 					<p style="padding-top:25px;">+34 91 091 04 88</p>
 				</li>
 				<li>
-					<h3>Dirección</h3>
+					<h3><?=numberize("Dirección") ?></h3>
 					<p style="padding-top:25px;">
-						LANX ABOGADOS Y CONSULTORÍA<br />
-						C/ Emilio Carrere 3, bajo<br />
-						28015 Madrid, España
+						<?=numberize("LANX ABOGADOS Y CONSULTORÍA") ?><br />
+						<?=numberize("C/ Emilio Carrere 3, bajo") ?><br />
+						<?=numberize("28015 Madrid, España") ?>
 					</p>
 				</li>
 				
 				<li>
-					<h3>Linkedin</h3>
+					<h3><?=numberize("Linkedin") ?></h3>
 					<p style="padding-top:25px;">
 						<a target="_blank" href="http://www.linkedin.com/company/5091003">
-							<img src="images/lnkdin.png" />
+							<img src="<?=getImage( "images/lnkdin.png" ) ?>" />
 						</a>
 					</p>
 				</li>
