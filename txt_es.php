@@ -1,4 +1,5 @@
 <?php
+$V						= '?0';
 $TXT_MENU_EMPRESA		= 'La Firma';
 $TXT_MENU_PRODUCTO		= 'Servicios';
 $TXT_MENU_LOCALIZACION	= 'Localización';
@@ -9,27 +10,32 @@ $TXT_DESTACADOS_TITLE	= 'Destacados';
 $TXT_LEGAL_ADVICE		= 'Aviso Legal';
 
 
-$TXT_INDEX_TITLE	= 'LANX, Apostando por el Futuro';
+$TXT_INDEX_TITLE	= 'LANX, Abogados y Consultores';
 $TXT_INDEX_H0_TITLE	= 'Conócenos';
 $TXT_INDEX_H1_TITLE	= '¿Quiénes Somos?';
 $TXT_INDEX_H2_TITLE	= 'Misión/Visión';
 $TXT_INDEX_H3_TITLE	= 'Valores';
 $TXT_INDEX_H4_TITLE	= 'Compliance';
 $TXT_INDEX_H5_TITLE	= 'Fundaciones';
-$TXT_INDEX_P1 		= 'Lanx es una firma española independiente, basada en un <b>enfoque multidisciplinar</b> que integra servicios jurídicos económicos, de consultoría y formación.';
+$TXT_INDEX_P1 		= 'Lanx es una firma española independiente, basada en un enfoque multidisciplinar que integra servicios jurídicos económicos, de consultoría y formación.';
 $TXT_INDEX_P2 		= 'Nuestro origen como bufete de abogados está avalada por la  dilatada experiencia de un importante elenco de profesionales de proyección nacional.';
 $TXT_INDEX_P3 		= 'Destacamos de forma especial nuestros servicios relativos a Protección de datos,  divorcios, despidos, negociación clausula suelo, sentencias favorables en preferentes';
 
 $TXT_INDEX_P30		= 'images/qs.png';
-$TXT_INDEX_P31		= '<b>Especialización y Experiencia</b> definen nuestra práctica profesional.';
+$TXT_INDEX_P31		= 'Especialización y Experiencia definen nuestra práctica profesional.';
 $TXT_INDEX_P32		= 'Todos los asuntos son estudiados de manera individual por un socio director, con los responsables de área implicados.';
-$TXT_INDEX_P33		= '<b>Nuestro valor añadido</b>: estudio personalizado y transparencia';
+$TXT_INDEX_P33		= 'Nuestro valor añadido:';
+$TXT_INDEX_P33b		= ' estudio personalizado y transparencia';
 
 $TXT_INDEX_P8 		= 'Nuestra misión: ser un referente como despacho multidisciplinar en el sector jurídico, económico, consultor y de formación.';
-$TXT_INDEX_P9 		= 'Nuestra visión: promover, fomentar y desarrollar un despacho basado en la <b>deontología profesional</b> y el <b>servicio integral</b> a nuestros clientes.';
+$TXT_INDEX_P9 		= 'Nuestra visión: promover, fomentar y desarrollar un despacho basado en la';
+$TXT_INDEX_P9a 		= ' deontología profesional';
+$TXT_INDEX_P9b 		= ' y el';
+$TXT_INDEX_P9c 		= ' servicio integral';
+$TXT_INDEX_P9d 		= ' a nuestros clientes.';
 
 $TXT_INDEX_P10 		= 'valores_es.png';
-$TXT_INDEX_P11 		= 'El cumplimiento normativo, más conocido como <i>Corporative Compliance</i>, se ha convertido en los últimos años en una de las principales preocupaciones de las empresas y organizaciones, al objeto de detectar y gestionar los posibles riesgos a los que se pueden enfrentar por incumplimientos normativos, incluidos los generados por sus empleados.';
+$TXT_INDEX_P11 		= 'El cumplimiento normativo, más conocido como Corporative Compliance, se ha convertido en los últimos años en una de las principales preocupaciones de las empresas y organizaciones, al objeto de detectar y gestionar los posibles riesgos a los que se pueden enfrentar por incumplimientos normativos, incluidos los generados por sus empleados.';
 $TXT_INDEX_P12 		= 'Este servicio permite conocer al cliente el grado de cumplimiento normativo que tiene en el desarrollo de su negocio y evaluar los riesgos de manera integral mediante un control interno y mediante herramientas de gestión acomodadas a las necesidades del cliente.';
 $TXT_INDEX_P13 		= 'LANX ofrece una oferta completa de servicios de consultoría, auditoría y herramientas informáticas, si así lo requiere el cliente.';
 $TXT_INDEX_P14 		= 'Ofrecemos un asesoramiento integral en materia de Fundaciones, incluido dentro del Área Administrativo y Fiscal, que engloba necesidad que en su actividad requieran este tipo de entidades, desde su constitución hasta cómo funcionan, abarcando todos los ámbitos jurídicos y de gestión que precisen.';
@@ -41,13 +47,15 @@ $TXT_INDEX_P19 		= 'Relaciones con el Protectorado de Fundaciones y otras Admini
 $TXT_INDEX_P20 		= 'Asesoramiento en la actividad propia de las Fundaciones: contratación, elevación de actividades administrativas conforme la Ley de Fundaciones, contratación de personal, movimientos patrimoniales...';
 $TXT_INDEX_P21 		= 'Asesoramiento fiscal: régimen fiscal especial de las entidades sin fines lucrativos; régimen fiscal de las donaciones y aportaciones a la Fundación.';
 
-$TXT_PRODUC_TITLE	= 'Su necesidad, nuestra prioridad';
+$TXT_PRODUC_TITLE	= 'LANX, Servicio Personalizado';
 $TXT_PRODUC_H1_P0	= 'Especialización';
 
 $TXT_PRODUC_H0_TITLE= 'Consultoría';
 $TXT_PRODUC_HT_P1	= 'LANX ESPECIALIZADOS EN EL TRATO PERSONAL';
 $TXT_PRODUC_H0_P1	= 'images/consultoria_es.png';
-$TXT_PRODUC_H0_P2	= 'Sistemas de Gestión de Calidad con las normativas <b>ISO 9001 y 14001</b> para cubrir la necesidad de ofrecer productos o servicios con un distintivo añadido, aportando una mejor visión a los clientes y garantizando unos procesos empresariales más efectivos, así como La sensibilización ambiental y el impacto de nuestras empresas en el mismo.';
+$TXT_PRODUC_H0_P2	= 'Sistemas de Gestión de Calidad con las normativas';
+$TXT_PRODUC_H0_P21	= ' ISO 9001 y 14001';
+$TXT_PRODUC_H0_P22	= ' para cubrir la necesidad de ofrecer productos o servicios con un distintivo añadido, aportando una mejor visión a los clientes y garantizando unos procesos empresariales más efectivos, así como La sensibilización ambiental y el impacto de nuestras empresas en el mismo.';
 $TXT_PRODUC_H1_TITLE= 'Despacho';
 $TXT_PRODUC_H1_P1	= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 $TXT_PRODUC_H2_TITLE= 'Fundaciones';
@@ -228,7 +236,7 @@ $TXT_SOMOS_1_XP6	= 'QUIERO TELEVISION 1999- 2002, como Gerente de recursos human
 $TXT_SOMOS_1_XP7	= 'UNION FENOSA ACEX 1998 – 1999, como Abogado en el departamento legal elaborando contratos a nivel internacional.';
 
 
-$TXT_SOMOS_2_TITLE	= 'Socio Director';
+$TXT_SOMOS_2_TITLE	= 'Socia';
 $TXT_SOMOS_2_TXT	= 'Dilata experiencia en el desempeño de diversos puestos de responsabilidad en el sector medioambiental y sanitario  tanto en la administración pública como  en empresas,  y fundaciones  privadas.';
 $TXT_SOMOS_2_TXT2	= 'Actualmente compagina su labor de asesoramiento y dirección  de la Fundación CB para el desarrollo de la educación con el ejercicio profesional de la abogacía.';
 $TXT_SOMOS_2_TXT3	= 'Asesora en áreas de gestión, dirección y desarrollo de negocio a PYMES,  así como  de organizaciones no gubernamentales, entidades del sector público y fundaciones en un amplio abanico de servicios que éstas precisan a nivel autonómico, estatal e internacional.';
@@ -329,7 +337,7 @@ $TXT_CONTACT_TITLE2	= 'LANX, En Contancto Contigo';
 $TXT_CONTACT_PERSON	= 'Datos Personales';
 $TXT_CONTACT_NAME	= 'Nombre';
 $TXT_CONTACT_COMPANY= 'Empresa';
-$TXT_CONTACT_PHONE	= 'Tel&eacute;fono';
+$TXT_CONTACT_PHONE	= 'Teléfono';
 $TXT_CONTACT_MAIL	= 'E-mail';
 $TXT_CONTACT_COMMEN1= 'Comentarios';
 $TXT_CONTACT_COMMEN2= 'Comentarios';
@@ -337,7 +345,7 @@ $TXT_CONTACT_SEND	= 'Enviar';
 
 $TXT_ADVICE_TITLE	= 'Aviso Legal';
 
-$TXT_ADVICE_P1		= 'El sitio web www.lanxiuris.es (en adelante LANX), con domicilio social en C/ Emilio Carrere 5, bajo, 28015 Madrid, España; con CIF nº A-000000, inscrita en el Registro Mercantil de Madrid, tomo 0000 General, 0000 sección 0ª del Libro de Sociedades, Folio 00, Hoja 00000, Inscripción 0ª.';
+$TXT_ADVICE_P1		= 'El sitio web www.lanx.es (en adelante LANX), con domicilio social en C/ Emilio Carrere 5, bajo, 28015 Madrid, España; con CIF nº A-000000, inscrita en el Registro Mercantil de Madrid, tomo 0000 General, 0000 sección 0ª del Libro de Sociedades, Folio 00, Hoja 00000, Inscripción 0ª.';
 $TXT_ADVICE_1_COND	= '1. Condiciones de Uso y su aceptación';
 $TXT_ADVICE_1_DIV	= 'Estas condiciones regulan el uso de la web de LANX para el usuario de Internet, y expresan la aceptación plena y sin reservas del mismo de todas y cada una de las condiciones y restricciones que estén publicadas en la web en el momento en que acceda a la misma. El acceso a la web y/o la utilización de cualquiera de los servicios en ella incluidos supondrá la aceptación de todas las condiciones de uso. LANX se reserva el derecho a modificar unilateralmente la web y los servicios en ella ofrecidos, incluyendo la modificación de las condiciones de uso. Por ello se recomienda al usuario que lea este Aviso Legal tantas veces como acceda a la web.';
 $TXT_ADVICE_2_COND	= '2. Condiciones de utilización de la Web';
