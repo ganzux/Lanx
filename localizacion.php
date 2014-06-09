@@ -1,4 +1,7 @@
 <?php session_start();
+
+ob_start();
+
 include 'lang.php';
 $_SESSION['ceimexpage']=2;
 $_SESSION['ceimextitle']=$TXT_LOCAL_TITLE;
@@ -22,7 +25,7 @@ $_SESSION['ceimextitle']=$TXT_LOCAL_TITLE;
 							<br />
 							<p>
 								<a href="https://mapsengine.google.com/map/edit?mid=zmFuCGwZ3_4o.kP0S56Bzy0Cs" target="_blank">
-									<?= $TXT_LOCAL_NEW_WIN ?>
+									<?= numberize( $TXT_LOCAL_NEW_WIN ) ?>
 								</a>
 							</p>
 						</section>
@@ -38,3 +41,9 @@ $_SESSION['ceimextitle']=$TXT_LOCAL_TITLE;
 
 	</body>
 </html>
+
+<?php 
+$test = ob_get_contents();
+ob_end_clean();
+echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
+?>
