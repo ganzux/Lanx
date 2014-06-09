@@ -1,4 +1,7 @@
 <?php session_start();
+
+ob_start();
+
 include 'lang.php';
 $_SESSION['ceimexpage']=4;
 $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
@@ -18,25 +21,29 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 					<div class="8u">
 						<section class="middle-content">
 							<div style="position:absolute;width:160px;text-align:center;">
-								<img src="images/3.png" />
-								<h1 style="padding-top:10px;">Ángel Roda</h1>
+								<img src="<?=getImage( "images/3.png" ) ?>" />
+								<h1 style="padding-top:10px;"><?= numberize("Ángel Roda") ?></h1>
 							</div>
 							
 							<div style="margin-left:165px;">
 							
 								<H3>
-									<?=$TXT_SOMOS_3_TITLE ?>
+									<?=numberize($TXT_SOMOS_3_TITLE) ?>
 								</H3>
 
-								<p style="line-height: 1.3em;"><?=$TXT_SOMOS_3_TXT ?></p>
+								<p style="line-height: 1.3em;"><?=numberize($TXT_SOMOS_3_TXT) ?></p>
+								
+								<p>
+								<a name="2" target="_blank" href="https://www.linkedin.com/"><?= numberize("Linkedin") ?><img src="<?=getImage( "images/lnkdin.png" ) ?>" style="vertical-align: middle;padding-left: 20;" /></a></h3>
+								</p>
 
-								<p><?=$TXT_SOMOS_3_TXT2 ?></p>
+								<p><?=numberize($TXT_SOMOS_3_TXT2) ?></p>
 								
-								<p><?=$TXT_SOMOS_3_TXT3 ?></p>
+								<p><?=numberize($TXT_SOMOS_3_TXT3) ?></p>
 								
-								<p><?=$TXT_SOMOS_3_TXT4 ?></p>
+								<p><?=numberize($TXT_SOMOS_3_TXT4) ?></p>
 								
-								<p><?=$TXT_SOMOS_3_TXT5 ?></p>
+								<p><?=numberize($TXT_SOMOS_3_TXT5) ?></p>
 
 							</div>
 						
@@ -54,3 +61,9 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 	</body>
 
 </html>
+
+<?php 
+$test = ob_get_contents();
+ob_end_clean();
+echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
+?>
