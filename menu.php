@@ -20,17 +20,16 @@ if ( $_SESSION['ceimexlang'] == 'en' ) $lang[ 1 ] = "actual";
 			<header id="header">
 				<h1>
 					<a href="#">
-						<!--img src="images/480_h.jpg" /-->
 						<div id="imagelanx">
 						</div>
 					</a>
 				</h1>
 				<nav>
-					<a href="index.php" class="<?= $classes[0]?>"><?= $TXT_MENU_EMPRESA?> </a>
-					<a href="producto.php" class="<?= $classes[1]?>"><?= $TXT_MENU_PRODUCTO?></a>
-					<a href="somos.php" class="<?= $classes[4]?>"><?= $TXT_MENU_PROFESIONALES?></a>
-					<a href="localizacion.php" class="<?= $classes[2]?>"><?= $TXT_MENU_LOCALIZACION?></a>
-					<a href="contacto.php" class="<?= $classes[3]?>"><?= $TXT_MENU_CONTACTO?></a>
+					<a href="index.php" class="<?= $classes[0]?>"><?= numberize( $TXT_MENU_EMPRESA )?> </a>
+					<a href="producto.php" class="<?= $classes[1]?>"><?= numberize( $TXT_MENU_PRODUCTO )?></a>
+					<a href="somos.php" class="<?= $classes[4]?>"><?= numberize( $TXT_MENU_PROFESIONALES )?></a>
+					<a href="localizacion.php" class="<?= $classes[2]?>"><?= numberize( $TXT_MENU_LOCALIZACION )?></a>
+					<a href="contacto.php" class="<?= $classes[3]?>"><?= numberize( $TXT_MENU_CONTACTO )?></a>
 				</nav>
 			</header>
 		</div>
