@@ -47,7 +47,7 @@
 					<h3><?=numberize("Linkedin") ?></h3>
 					<p style="padding-top:25px;">
 						<a target="_blank" href="http://www.linkedin.com/company/5091003">
-							<img src="<?=getImage( "images/lnkdin.png" ) ?>" />
+							<img src="<?=getImage( "images/lnkdin.png" ) ?>" alt="Logo de Linkedin"></img>
 						</a>
 					</p>
 				</li>

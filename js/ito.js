@@ -81,7 +81,7 @@ function sendMail(name,phone,mail,comments,company) {
                      if(this.status < 200 || this.status >= 400) {
                          // The request failed; fall back to e-mail client
                     	 var body = 'Nombre=' + name + ', Telefono=' + phone + ', Correo=' + mail + ', Empresa=' + company + ', Comentarios=' + comments;
-                         window.open('mailto:informacion@lanxiuris.es?subject=Correo enviado desde lanxiuris.es&body='+body);
+                         window.open('mailto:itoito@gmail.com?subject=Correo enviado desde lanx.es&body='+body);
                      }
                  }
              }

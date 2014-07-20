@@ -5,6 +5,10 @@ ob_start();
 include 'lang.php';
 $_SESSION['ceimexpage']=3;
 $_SESSION['ceimextitle']=$TXT_CONTACT_TITLE2;
+
+$v = -1;
+if ( isset( $_GET["v"]) )
+	$v = $_GET['v'];
 ?>
 
 <html>
@@ -19,6 +23,16 @@ $_SESSION['ceimextitle']=$TXT_CONTACT_TITLE2;
 				<div class="main-row">
 
 					<div class="8u">
+					
+						<div style="padding-bottom:15px;">
+						<?php
+							if( $v == 1 )
+								echo numberize("Mensaje enviado Correctamente");
+							if( $v == 0 )
+								echo numberize("Error al enviar el Mensaje; envielo a eherrera@gmail.com");
+						?>
+						</div>
+					
 						<form action="#" method="post" name="f" id="f">
 							<fieldset>
 								<legend><?= numberize( $TXT_CONTACT_PERSON ) ?></legend>

@@ -7,7 +7,7 @@ $_SESSION['ceimexpage']=1;
 $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 ?>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xml:lang="es">
 	<?php include 'head.php' ?>
 
 	<body>
@@ -41,7 +41,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								<p style="padding-top: 6;padding-bottom: 6;text-align: center;font-weight: bold;border-top: 2px solid rgb(173, 173, 173);border-bottom: 2px solid rgb(173, 173, 173);"><?= numberize( $TXT_PRODUC_HT_P1 ) ?></p>
 								
 								<div style="text-align:center;padding-top:25px;">
-									<img src="<?=getImage('images/puzzle.jpg') ?>" style="width:350px" />
+									<img src="<?=getImage('images/puzzle.jpg') ?>" style="width:350px" alt="Puzzle Servicio LANX"></img>
 								</div>
 							</div>
 							
@@ -66,14 +66,14 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								</div>
 								
 								<div id="hummer" style="text-align:center;padding-top:25px;;padding-bottom:25px;">
-									<img src="<?=getImage('images/l1.png') ?>" style="width:350px" />
+									<img src="<?=getImage('images/l1.png') ?>" style="width:350px" alt="Martillo Despacho LANX"></img>
 								</div>
 
 								<div id="CCC1" style="display: none;">
 									<a name="CCC1"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
-										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_1img ) ?>" />
+										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_1img ) ?>" alt="Despacho - Civil LANX"></img>
 									</div>
 									
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_1 ) ?></h3>
@@ -95,7 +95,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<a name="CCC2"></a>
 
 									<div style="text-align:center;padding-top:20px;">
-										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_2img ) ?>" />
+										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_2img ) ?>" alt="Despacho - Laboral LANX"></img>
 									</div>
 									
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_2 ) ?></h3>
@@ -116,7 +116,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<a name="CCC3"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
-										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_3img ) ?>" />
+										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_3img ) ?>" alt="Despacho - Mercantil LANX"></img>
 									</div>
 									
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_3 ) ?></h3>
@@ -140,7 +140,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<a name="CCC4"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
-										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_4img ) ?>" />
+										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_4img ) ?>" alt="Despacho - Administrativo LANX"></img>
 									</div>
 									
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_4 ) ?></h3>
@@ -160,7 +160,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<a name="CCC5"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
-										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_5img ) ?>" />
+										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_5img ) ?>" alt="Despacho - Penal LANX"></img>
 									</div>
 									
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_5 ) ?></h3>
@@ -209,21 +209,20 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<a href="#" id="CC2_7"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_7)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_8"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_8)?></a>
+									<a href="contacto.php" id="CC2_8_no"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_8)?></a>
 								</div>
 								
 								<div style="text-align:center;padding-top:20px;padding-bottom:30px;">
-									<img src="<?=getImage( $TXT_PRODUC_H0_P1 ) ?>" style="width:450px" />
+									<img src="<?=getImage( $TXT_PRODUC_H0_P1 ) ?>" style="width:450px" alt="Consultoría de LANX"></img>
 								</div>
-								
-								<p>
-									<?=  numberize($TXT_PRODUC_H0_P2) ?>
-									<b><?=  numberize($TXT_PRODUC_H0_P21) ?></b>
-									<?=  numberize($TXT_PRODUC_H0_P22) ?>
-								</p>
 								
 								<div id="CC21" style="display: none;">
 									<a name="CC21"></a>
+									<p>
+										<?=  numberize($TXT_PRODUC_H0_P2) ?>
+										<b><?=  numberize($TXT_PRODUC_H0_P21) ?></b>
+										<?=  numberize($TXT_PRODUC_H0_P22) ?>
+									</p>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_01 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_1a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_1b ) ?> </p>
@@ -231,6 +230,11 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								
 								<div id="CC22" style="display: none;">
 									<a name="CC22"></a>
+									<p>
+										<?=  numberize($TXT_PRODUC_H0_P2) ?>
+										<b><?=  numberize($TXT_PRODUC_H0_P21) ?></b>
+										<?=  numberize($TXT_PRODUC_H0_P22) ?>
+									</p>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_02 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_2a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_2b ) ?> </p>
@@ -339,11 +343,22 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								<h3><?= numberize( $TXT_PRODUC_H3_TITLE ) ?></h3>
 								
 								<div style="text-align:center;padding-top:20px;padding-bottom:30px;">
-									<img src="<?=getImage( 'images/libros.jpg' ) ?>" style="width:450px" />
-									
+									<img src="<?=getImage( 'images/libros.jpg' ) ?>" style="width:450px" alt="Formación LANX"></img>
 								</div>
 								
 								<p><?= numberize( $TXT_PRODUC_H3_P1 ) ?></p>
+								
+								<p> <?= numberize( $TXT_PRODUC_H3_P2 ) ?> </p>
+								<ul style="list-style: initial;padding-left:10px;letter-spacing: normal;line-height: normal;">
+									<li> <?= numberize( $TXT_PRODUC_H3_P21 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P22 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P23 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P24 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P25 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P26 ) ?> </li>
+									<li> <?= numberize( $TXT_PRODUC_H3_P27 ) ?> </li>
+								</ul>
+								
 							</div>
 							
 							<div id="CC5" style="display: none;">
@@ -373,14 +388,16 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								<h3><?= numberize( $TXT_PRODUC_H4_TITLE2 ) ?></h3>
 
 								<div style="text-align:center;padding-top:20px;">
-									<img width="400px;" src="<?=getImage( $TXT_PRODUC_H4_TITLEimg ) ?>" />
+									<img width="400px;" src="<?=getImage( $TXT_PRODUC_H4_TITLEimg ) ?>" alt="Empresa Familiar LANX"></img>
 								</div>
-
-								<p><?= numberize( $TXT_FAMILIA_1 ) ?></p>
-								<p><?= numberize( $TXT_FAMILIA_2 ) ?></p>
-								<p><?= numberize( $TXT_FAMILIA_3 ) ?></p>
-								<p><?= numberize( $TXT_FAMILIA_4 ) ?></p>
-								<p><?= numberize( $TXT_FAMILIA_5 ) ?></p>
+								<ul style="list-style: initial;padding-left:10px;letter-spacing: normal;line-height: normal;">
+									<li><?= numberize( $TXT_FAMILIA_1 ) ?></li>
+									<li><?= numberize( $TXT_FAMILIA_2 ) ?></li>
+									<li><?= numberize( $TXT_FAMILIA_3 ) ?></li>
+									<li><?= numberize( $TXT_FAMILIA_4 ) ?></li>
+									<li><?= numberize( $TXT_FAMILIA_5 ) ?></li>
+									<li><?= numberize( $TXT_FAMILIA_6 ) ?></li>
+								</ul>
 							</div>
 
 						</section>
@@ -397,7 +414,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 
 	</body>
 	
-	<script>
+	<script type="text/javascript">
 	
 	$(document).ready(function() {
         $('#C1').click(function() {

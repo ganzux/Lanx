@@ -20,7 +20,7 @@ $_SESSION['ceimexpage']=0;
 $_SESSION['ceimextitle']= $TXT_INDEX_TITLE;
 ?>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xml:lang="es">
 	<?php include 'head.php' ?>
 
 	<body>
@@ -63,7 +63,7 @@ $_SESSION['ceimextitle']= $TXT_INDEX_TITLE;
 								<p style="padding-top: 6;padding-bottom: 6;text-align: center;font-weight: bold;border-top: 2px solid rgb(173, 173, 173);border-bottom: 2px solid rgb(173, 173, 173);"><?= numberize( $TXT_INDEX_P31 ) ?></p>
 								
 								<div style="text-align:center">
-								<img src="<?= getImage( $TXT_INDEX_P30 ) ?>" style="width:450px;padding-bottom:20px;" />
+								<img src="<?= getImage( $TXT_INDEX_P30 ) ?>" style="width:450px;padding-bottom:20px;" alt="Cuadro Quienes Somos de LANX"></img>
 
 								</div>
 								
@@ -89,7 +89,9 @@ $_SESSION['ceimextitle']= $TXT_INDEX_TITLE;
 							<div id="CC3" style="display: none;">
 								<a name="3"></a>
 								<h3><?= numberize( $TXT_INDEX_H3_TITLE ) ?></h3>
-								<p style="text-align:center"><img src="<?=getImage( "images/".$TXT_INDEX_P10 ) ?>" width="500" /></p>
+								<p style="text-align:center">
+									<img src="<?=getImage( "images/".$TXT_INDEX_P10 ) ?>" width="500" alt="Gráfico Valores de LANX"></img>
+								</p>
 							</div>
 
 						</section>

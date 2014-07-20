@@ -19,7 +19,7 @@ $TXT_INDEX_H4_TITLE	= 'Compliance';
 $TXT_INDEX_H5_TITLE	= 'Fundaciones';
 $TXT_INDEX_P1 		= 'Lanx es una firma española independiente, basada en un enfoque multidisciplinar que integra servicios jurídicos económicos, de consultoría y formación.';
 $TXT_INDEX_P2 		= 'Nuestro origen como bufete de abogados está avalada por la  dilatada experiencia de un importante elenco de profesionales de proyección nacional.';
-$TXT_INDEX_P3 		= 'Destacamos de forma especial nuestros servicios relativos a Protección de datos,  divorcios, despidos, negociación clausula suelo, sentencias favorables en preferentes';
+$TXT_INDEX_P3 		= 'Destacamos de forma especial nuestros servicios relativos a protección de datos, despidos, negociación clausula suelo, separaciones y divorcios, sentencias favorables en preferentes, así como asesoramiento especializado a empresa familiar y formación.';
 
 $TXT_INDEX_P30		= 'images/qs.png';
 $TXT_INDEX_P31		= 'Especialización y Experiencia definen nuestra práctica profesional.';
@@ -62,6 +62,14 @@ $TXT_PRODUC_H2_TITLE= 'Fundaciones';
 $TXT_PRODUC_H2_P1	= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 $TXT_PRODUC_H3_TITLE= 'Formación';
 $TXT_PRODUC_H3_P1	= 'Realizamos cursos de formación on-line especializados para todos los ámbitos laborales. No dude en contactar con nosotros y le asesoraremos gratuitamente.';
+$TXT_PRODUC_H3_P2	= 'Cursos Actuales';
+$TXT_PRODUC_H3_P21	= 'Atención al cliente';
+$TXT_PRODUC_H3_P22	= 'Gestión del tiempo';
+$TXT_PRODUC_H3_P23	= 'Consigue impacto con tus presentaciones';
+$TXT_PRODUC_H3_P24	= 'Crea sintonía con tus clientes';
+$TXT_PRODUC_H3_P25	= 'Colaboración y Trabajo en equipo';
+$TXT_PRODUC_H3_P26	= 'Liderazgo y Desarrollo de personas';
+$TXT_PRODUC_H3_P27	= 'Introducción a la negociación colaborativa';
 
 $TXT_PRODUC_CONSULTORIA_SUB1 = 'Civil';
 $TXT_PRODUC_CONSULTORIA_SUB2 = 'Laboral';
@@ -208,20 +216,21 @@ $TXT_PRODUC_CONSULTORIA_ISO_8	= 'Asesoramiento';
 $TXT_PRODUC_CONSULTORIA_ISO_08	= 'Asesoramiento online';
 
 $TXT_PRODUC_H4_TITLE= 'Empresa Familiar';
-$TXT_PRODUC_H4_TITLE2= 'Relaciones Familiares en las Empresas';
+$TXT_PRODUC_H4_TITLE2= 'Empresa Familiar';
 $TXT_PRODUC_H4_TITLEimg= 'images/familia_es.png';
-$TXT_FAMILIA_1 = 'La gran mayoría de las empresas familiares no logran atravesar la primera generación. Esto se debe a la interferencia de las emociones en las decisiones de negocio.';
-$TXT_FAMILIA_2 = '200 de las 500 empresas más grandes del mundo (nada menos que el 40%) son propiedad de familias o están controladas por ellas.';
-$TXT_FAMILIA_3 = 'La mayoría de las organizaciones fundadas como familiares (entre el 70% y el 90%) no han logrado atravesar la primera generación.';
-$TXT_FAMILIA_4 = 'Gran parte del fracaso se explica por conflictos emocionales que afectan negativamente la toma de decisiones. Este problema no ha sido resuelto (o lo ha sido sólo parcialmente) por el management tradicional.';
-$TXT_FAMILIA_5 = 'En la actualidad, y con base en el desarrollo de la neurociencia afectiva, el neuromanagement investiga cómo las emociones afectan la toma de decisiones y, a su vez, cómo pueden evitarse sus efectos devastadores en las empresas familiares.';
+$TXT_FAMILIA_1 = 'Diagnóstico de la empresa familiar.';
+$TXT_FAMILIA_2 = 'Creación del consenso.';
+$TXT_FAMILIA_3 = 'Creación de un protocolo familiar.';
+$TXT_FAMILIA_4 = 'Documento de órganos de gobierno.';
+$TXT_FAMILIA_5 = 'Implantación de políticas empresariales y familiares.';
+$TXT_FAMILIA_6 = 'Revisión y actualizaciones posteriores de los protocolos familiares.';
 
 
 $TXT_SOMOS_TITLEUP	= 'LANX, Expertos';
 $TXT_SOMOS_MENU		= 'Abogados';
 $TXT_SOMOS_PERFIL_C	= 'Perfil Completo';
-$TXT_SOMOS_1_TITLE	= 'Socio Director';
-$TXT_SOMOS_1_TXT	= 'Abogado en ejercicio desde 1999 con experiencia consolidada en los tribunales, así como en asesoramiento de empresas en materia de recursos humanos, fiscalidad y negociación de contratos. Colaborador jurídico y asesor en distintos ámbitos del derecho mercantil y laboral de empresas consolidadas.';
+$TXT_SOMOS_1_TITLE	= 'Socio Director (CEO)';
+$TXT_SOMOS_1_TXT	= 'Abogado en ejercicio desde 1999 con experiencia consolidada en los tribunales, así como en asesoramiento de empresas en materia de recursos humanos, fiscalidad y negociación de contratos. Colaborador jurídico y asesor en distintos ámbitos del derecho mercantil y laboral de empresas y particulares.';
 $TXT_SOMOS_1_MAS	= 'Más...';
 $TXT_SOMOS_1_P2		= 'Colaborador en programas de formación en escuelas de negocios y centros educativos, profesor del Master de Práctica Jurídica y Procesal Civil del ISDE.';
 $TXT_SOMOS_1_P3		= 'Asesor técnico y estratégico de Asociaciones y Fundaciones.';
