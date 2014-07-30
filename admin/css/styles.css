@@ -31,6 +31,15 @@ html, body {
 	
 }
 
+h1{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: underline;
+}
+
 #container {
 	position: fixed;
 	width: 340px;

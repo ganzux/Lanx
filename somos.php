@@ -82,7 +82,7 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 
 								<p style="line-height: 1.3em;"><?=numberize($TXT_SOMOS_3_TXT) ?></p>
 								<p>
-									<a name="2" target="_blank" href="http://www.linkedin.com/">
+									<a name="2" target="_blank" href="https://www.linkedin.com/profile/view?id=71367742">
 										<?= numberize("Linkedin") ?>
 										<img src="<?=getImage( "images/lnkdin.png" ) ?>" style="vertical-align: middle;padding-left: 20;" alt="Logo de Linkedin"></img>
 									</a>
@@ -106,6 +106,30 @@ $_SESSION['ceimextitle']=$TXT_SOMOS_TITLEUP;
 								<p style="line-height: 1.3em;padding-bottom: 20px;"><?=numberize($TXT_SOMOS_4_TXT) ?></p>
 								<p>
 									<a name="2" target="_blank" href="https://www.linkedin.com/profile/view?id=25265708">
+										<?= numberize("Linkedin") ?>
+										<img src="<?=getImage( "images/lnkdin.png" ) ?>" style="vertical-align: middle;padding-left: 20;" alt="Logo de Linkedin"></img>
+									</a>
+									<!--a name="2" href="somos4.php">
+										<?=numberize($TXT_SOMOS_PERFIL_C) ?>
+									</a-->
+								</p>
+							</div>
+							
+							
+							<div style="padding-top:60px;position:absolute;width:160px;text-align:center;">
+								<img src="<?=getImage( "images/5.png" ) ?>" alt="Foto de Eva Montero Manzanares"></img>
+								<h1 style="padding-top:10px;"><?= numberize("Eva Montero Manzanares") ?></h1>
+							</div>
+							
+							<div style="padding-top:60px;margin-left:165px;">
+							
+								<H3>
+									<?=numberize($TXT_SOMOS_5_TITLE) ?>
+								</H3>
+
+								<p style="line-height: 1.3em;padding-bottom: 20px;"><?=numberize($TXT_SOMOS_5_TXT) ?></p>
+								<p>
+									<a name="2" target="_blank" href="https://www.linkedin.com/profile/view?id=104201353">
 										<?= numberize("Linkedin") ?>
 										<img src="<?=getImage( "images/lnkdin.png" ) ?>" style="vertical-align: middle;padding-left: 20;" alt="Logo de Linkedin"></img>
 									</a>
