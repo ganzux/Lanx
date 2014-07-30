@@ -13,12 +13,12 @@ if ( $conn == null ){
 	
 if ( isset( $_POST["titulo"]) && isset( $_POST["texto"]) ){
 	$ti = htmlspecialchars($_POST["titulo"]);
-	$te = htmlspecialchars($_POST["texto"]);
+	$te = htmlspecialchars($_POST["texto"]);		$or = htmlspecialchars($_POST["order"]);
 	$us = $_SESSION['user'];
 	
 	$dbname = new PDO('sqlite:../sqlite/lanx.sqlite');
 	
-	$statement = $dbname->prepare( 'INSERT INTO messages (title, message, user) VALUES ("'.$ti.'", "'.$te.'", "'.$us.'")' );
+	$statement = $dbname->prepare( 'INSERT INTO messages (title, message, user, ord) VALUES ("'.$ti.'", "'.$te.'", "'.$us.'", "'.$or.'")' );
 	$statement->execute();
 
 	header( "Location: login.php?ok=true" );

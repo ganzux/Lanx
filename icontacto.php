@@ -11,7 +11,7 @@
 			if ( $numRows > 0 ){
 				echo '<H2>'.$TXT_DESTACADOS_TITLE.'</h2>';
 
-				foreach ($dbname->query('SELECT * FROM messages') as $row) {
+				foreach ($dbname->query('SELECT * FROM messages ORDER BY ord') as $row) {
 					echo "<h4>" . $row["title"] . "</h4>";
 					echo "<p>" . $row["message"] . "</p>";
 				}
