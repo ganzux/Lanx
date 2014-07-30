@@ -337,6 +337,11 @@ $TXT_SOMOS_4_TXTCER	= 'Certificaciones';
 $TXT_SOMOS_4_TXTCER1= 'Coach Ejecutivo Asociado Certificado por AECOP.';
 $TXT_SOMOS_4_TXTCER2= 'Facilitadora de la Metodología Belbin de Roles de Equipo.';
 
+
+
+$TXT_SOMOS_5_TITLE	= 'Abogada';
+$TXT_SOMOS_5_TXT	= 'Vinculada al ejercicio de la abogacía alrededor de 7 años y  accionista de Next Seguros y E-financia, empresa de capital privado. Procesalista, estando especializada en el ámbito del Derecho inmobiliario/urbanístico, bancario/hipotecario, responsabilidad civil/ contractual/seguros, en defensa de los intereses tanto de personas físicas como jurídicas.';
+
 $TXT_LOCAL_TITLE	= 'LANX, Cerca de Ti';
 $TXT_LOCAL_NEW_WIN	= 'Ventana Nueva';
 
