@@ -1,6 +1,6 @@
 <?php session_start();
 
-ob_start();
+//ob_start();
 
 if ( isset( $_SESSION['ceimexlang'] ) )
 	$lengua = $_SESSION['ceimexlang'];
@@ -111,57 +111,27 @@ $_SESSION['ceimextitle']= $TXT_INDEX_TITLE;
 	<script>
 	
 	$(document).ready(function() {
-        $('#C1').click(function() {
-			$('#CC0').hide();
-			$('#CC1').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC4').hide();
-			$('#CC5').hide();
-        });
+	
+		var change = function(id){
+			for (i=0;i<10;i++){
+				$('#C' + id.substr(0,id.length-1) + i).hide();
+			}
+			$('#C' + id ).toggle("slide");
+		}
 		
-		$('#C2').click(function() {
-			$('#CC0').hide();
-			$('#CC2').toggle("slide");
-			$('#CC1').hide();
-			$('#CC3').hide();
-			$('#CC4').hide();
-			$('#CC5').hide();
-        });
-		
-		$('#C3').click(function() {
-			$('#CC0').hide();
-			$('#CC3').toggle("slide");
-			$('#CC2').hide();
-			$('#CC1').hide();
-			$('#CC4').hide();
-			$('#CC5').hide();
-        });
-		
-		$('#C4').click(function() {
-			$('#CC0').hide();
-			$('#CC4').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC5').hide();
-        });
-		
-		$('#C5').click(function() {
-			$('#CC0').hide();
-			$('#CC5').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC4').hide();
-        });
+		for (i=0;i<10;i++){
+			$('#C' + i).click(function() {
+				change( this.id );
+			});
+		}
+
     });
 	
 	</script>
 </html>
 
 <?php 
-$test = ob_get_contents();
-ob_end_clean();
-echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
+//$test = ob_get_contents();
+//ob_end_clean();
+//echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
 ?>

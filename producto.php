@@ -1,6 +1,6 @@
 <?php session_start();
 
-ob_start();
+//ob_start();
 
 include 'lang.php';
 $_SESSION['ceimexpage']=1;
@@ -50,27 +50,27 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								<h3><?= numberize( $TXT_PRODUC_H1_TITLE ) ?></h3>
 								
 								<div style="display: inline-block;text-decoration: none;padding: 0 15px 0 0px;">
-									<a href="#" id="CCC_1"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB1)?> </a>
+									<a href="#" id="B1"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB1)?> </a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 15px 0 15px;">
-									<a href="#" id="CCC_2"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB2)?></a>
+									<a href="#" id="B2"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB2)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 15px 0 15px;">
-									<a href="#" id="CCC_3"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB3)?></a>
+									<a href="#" id="B3"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB3)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 15px 0 15px;">
-									<a href="#" id="CCC_4"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB4)?></a>
+									<a href="#" id="B4"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB4)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 15px 0 15px;">
-									<a href="#" id="CCC_5"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB5)?></a>
+									<a href="#" id="B5"><?=  numberize($TXT_PRODUC_CONSULTORIA_SUB5)?></a>
 								</div>
 								
-								<div id="hummer" style="text-align:center;padding-top:25px;;padding-bottom:25px;">
+								<div id="CB0" style="text-align:center;padding-top:25px;;padding-bottom:25px;">
 									<img src="<?=getImage('images/l1.png') ?>" style="width:350px" alt="Martillo Despacho LANX"></img>
 								</div>
 
-								<div id="CCC1" style="display: none;">
-									<a name="CCC1"></a>
+								<div id="CB1" style="display: none;">
+									<a name="CB1"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
 										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_1img ) ?>" alt="Despacho - Civil LANX"></img>
@@ -91,8 +91,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CCC2" style="display: none;">
-									<a name="CCC2"></a>
+								<div id="CB2" style="display: none;">
+									<a name="CB2"></a>
 
 									<div style="text-align:center;padding-top:20px;">
 										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_2img ) ?>" alt="Despacho - Laboral LANX"></img>
@@ -112,8 +112,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CCC3" style="display: none;">
-									<a name="CCC3"></a>
+								<div id="CB3" style="display: none;">
+									<a name="CB3"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
 										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_3img ) ?>" alt="Despacho - Mercantil LANX"></img>
@@ -136,8 +136,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CCC4" style="display: none;">
-									<a name="CCC4"></a>
+								<div id="CB4" style="display: none;">
+									<a name="CB4"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
 										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_4img ) ?>" alt="Despacho - Administrativo LANX"></img>
@@ -156,8 +156,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CCC5" style="display: none;">
-									<a name="CCC5"></a>
+								<div id="CB5" style="display: none;">
+									<a name="CB5"></a>
 									
 									<div style="text-align:center;padding-top:20px;">
 										<img src="<?=getImage( $TXT_PRODUC_CONSULTORIA_5img ) ?>" alt="Despacho - Penal LANX"></img>
@@ -188,25 +188,25 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 								<h3><?= numberize( $TXT_PRODUC_H0_TITLE ) ?></h3>
 								
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 0px;">
-									<a href="#" id="CC2_1"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_1)?> </a>
+									<a href="#" id="A1"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_1)?> </a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_2"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_2)?></a>
+									<a href="#" id="A2"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_2)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_3"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_3)?></a>
+									<a href="#" id="A3"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_3)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_4"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_4)?></a>
+									<a href="#" id="A4"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_4)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_5"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_5)?></a>
+									<a href="#" id="A5"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_5)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_6"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_6)?></a>
+									<a href="#" id="A6"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_6)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
-									<a href="#" id="CC2_7"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_7)?></a>
+									<a href="#" id="A7"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_7)?></a>
 								</div>
 								<div style="display: inline-block;text-decoration: none;padding: 0 5px 0 5px;">
 									<a href="contacto.php" id="CC2_8_no"><?=  numberize($TXT_PRODUC_CONSULTORIA_ISO_8)?></a>
@@ -216,8 +216,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<img src="<?=getImage( $TXT_PRODUC_H0_P1 ) ?>" style="width:450px" alt="Consultoría de LANX"></img>
 								</div>
 								
-								<div id="CC21" style="display: none;">
-									<a name="CC21"></a>
+								<div id="CA1" style="display: none;">
+									<a name="CA1"></a>
 									<p>
 										<?=  numberize($TXT_PRODUC_H0_P2) ?>
 										<b><?=  numberize($TXT_PRODUC_H0_P21) ?></b>
@@ -228,8 +228,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_1b ) ?> </p>
 								</div>
 								
-								<div id="CC22" style="display: none;">
-									<a name="CC22"></a>
+								<div id="CA2" style="display: none;">
+									<a name="CA2"></a>
 									<p>
 										<?=  numberize($TXT_PRODUC_H0_P2) ?>
 										<b><?=  numberize($TXT_PRODUC_H0_P21) ?></b>
@@ -240,8 +240,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_2b ) ?> </p>
 								</div>
 								
-								<div id="CC23" style="display: none;">
-									<a name="CC23"></a>
+								<div id="CA3" style="display: none;">
+									<a name="CA3"></a>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_03 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_3a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_3b ) ?> </p>
@@ -254,8 +254,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CC24" style="display: none;">
-									<a name="CC24"></a>
+								<div id="CA4" style="display: none;">
+									<a name="CA4"></a>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_04 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_4a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_4b ) ?> </p>
@@ -273,8 +273,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CC25" style="display: none;">
-									<a name="CC25"></a>
+								<div id="CA5" style="display: none;">
+									<a name="CA5"></a>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_05 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_5a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_5b ) ?> </p>
@@ -305,8 +305,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									</ul>
 								</div>
 								
-								<div id="CC26" style="display: none;">
-									<a name="CC26"></a>
+								<div id="CA6" style="display: none;">
+									<a name="CA6"></a>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_06 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_6a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_6b ) ?> </p>
@@ -320,8 +320,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_6d ) ?> </p>
 								</div>
 								
-								<div id="CC27" style="display: none;">
-									<a name="CC27"></a>
+								<div id="CA7" style="display: none;">
+									<a name="CA7"></a>
 									<h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_07 ) ?></h3>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_7a ) ?> </p>
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_7b ) ?> </p>
@@ -332,8 +332,8 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 									<p> <?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_7g ) ?> </p>
 								</div>
 								
-								<div id="CC28" style="display: none;">
-									<a name="CC28"></a>
+								<div id="CA8" style="display: none;">
+									<a name="CA8"></a>
 									<a href="contacto.php"><h3 style="padding-top:25px;"><?= numberize( $TXT_PRODUC_CONSULTORIA_ISO_08 ) ?></h3></a>
 								</div>
 							</div>
@@ -417,219 +417,28 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 	<script type="text/javascript">
 	
 	$(document).ready(function() {
-        $('#C1').click(function() {
-			$('#CC1').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC4').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC6').hide();
-			$('#CC7').hide();
-        });
-		
-		$('#C2').click(function() {
-			$('#CC2').toggle("slide");
-			$('#CC1').hide();
-			$('#CC3').hide();
-			$('#CC4').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC6').hide();
-			$('#CC7').hide();
-        });
-		
-		$('#C3').click(function() {
-			$('#CC3').toggle("slide");
-			$('#CC2').hide();
-			$('#CC1').hide();
-			$('#CC4').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC6').hide();
-			$('#CC7').hide();
-        });
-		
-		$('#C4').click(function() {
-			$('#CC4').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC6').hide();
-			$('#CC7').hide();
-        });
-		
-		$('#C5').click(function() {
-			$('#CC5').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC0').hide();
-			$('#CC4').hide();
-			$('#CC6').hide();
-			$('#CC7').hide();
-        });
-		
-		$('#C6').click(function() {
-			$('#CC6').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC4').hide();
-			$('#CC7').hide();
-        });
-		$('#C7').click(function() {
-			$('#CC7').toggle("slide");
-			$('#CC2').hide();
-			$('#CC3').hide();
-			$('#CC1').hide();
-			$('#CC0').hide();
-			$('#CC5').hide();
-			$('#CC4').hide();
-			$('#CC6').hide();
-        });
-    });
 	
-	$(document).ready(function() {
-        $('#CCC_1').click(function() {
-			$('#CCC1').toggle("slide");
-			$('#CCC2').hide();
-			$('#CCC3').hide();
-			$('#CCC4').hide();
-			$('#CCC5').hide();
-			$('#hummer').hide();
-        });
+		var change = function(id){
+			for (i=0;i<10;i++){
+				$('#C' + id.substr(0,id.length-1) + i).hide();
+			}
+			$('#C' + id ).toggle("slide");
+		}
 		
-		$('#CCC_2').click(function() {
-			$('#CCC2').toggle("slide");
-			$('#CCC1').hide();
-			$('#CCC3').hide();
-			$('#CCC4').hide();
-			$('#CCC5').hide();
-			$('#hummer').hide();
-        });
-		
-		 $('#CCC_3').click(function() {
-			$('#CCC3').toggle("slide");
-			$('#CCC2').hide();
-			$('#CCC1').hide();
-			$('#CCC4').hide();
-			$('#CCC5').hide();
-			$('#hummer').hide();
-        });
-		
-		 $('#CCC_4').click(function() {
-			$('#CCC4').toggle("slide");
-			$('#CCC2').hide();
-			$('#CCC3').hide();
-			$('#CCC1').hide();
-			$('#CCC5').hide();
-			$('#hummer').hide();
-        });
-		
-		 $('#CCC_5').click(function() {
-			$('#CCC5').toggle("slide");
-			$('#CCC2').hide();
-			$('#CCC3').hide();
-			$('#CCC4').hide();
-			$('#CCC1').hide();
-			$('#hummer').hide();
-        });
-    });
-	
-	$(document).ready(function() {
-        $('#CC2_1').click(function() {
-			$('#CC21').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_2').click(function() {
-			$('#CC22').toggle("slide");
-			$('#CC21').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_3').click(function() {
-			$('#CC23').toggle("slide");
-			$('#CC22').hide();
-			$('#CC21').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_4').click(function() {
-			$('#CC24').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC21').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_5').click(function() {
-			$('#CC25').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC21').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_6').click(function() {
-			$('#CC26').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC21').hide();
-			$('#CC27').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_7').click(function() {
-			$('#CC27').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC21').hide();
-			$('#CC28').hide();
-        });
-		
-		$('#CC2_8').click(function() {
-			$('#CC28').toggle("slide");
-			$('#CC22').hide();
-			$('#CC23').hide();
-			$('#CC24').hide();
-			$('#CC25').hide();
-			$('#CC26').hide();
-			$('#CC27').hide();
-			$('#CC21').hide();
-        });
-		
+		for (i=0;i<10;i++){
+			$('#C' + i).click(function() {
+				change( this.id );
+			});
+			
+			$('#B' + i).click(function() {
+				change( this.id );
+			});
+			
+			$('#A' + i).click(function() {
+				change( this.id );
+			});
+		}
+
     });
 	
 	
@@ -638,7 +447,7 @@ $_SESSION['ceimextitle']=$TXT_PRODUC_TITLE;
 </html>
 
 <?php 
-$test = ob_get_contents();
-ob_end_clean();
-echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
+//$test = ob_get_contents();
+//ob_end_clean();
+//echo preg_replace('/[ \t\r\n]+/', ' ', preg_replace('/\s*$^\s*/m', "\n", $test));
 ?>
